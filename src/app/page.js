@@ -6,11 +6,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="  items-center justify-center bg-black font-sans dark:bg-black">
+    <div className="  bg-black/98 font-sans text-white">
       <header>
         <Navbar></Navbar>
       </header>
-      <main className=" min-h-[calc(100vh-161px)] w-full max-w-3xl py-20  px-16 sm:items-start">
+      <main className=" min-h-[calc(100vh-161px)] w-full max-w-screen-2xl py-20   sm:items-start">
        <Hero></Hero>
       </main>
       <footer>
