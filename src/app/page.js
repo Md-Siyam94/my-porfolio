@@ -1,16 +1,20 @@
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
+
+import Hero from "@/pages/Home/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="  items-center justify-center bg-black font-sans dark:bg-black">
       <header>
-        
+        <Navbar></Navbar>
       </header>
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-       
+      <main className=" min-h-[calc(100vh-161px)] w-full max-w-3xl py-20  px-16 sm:items-start">
+       <Hero></Hero>
       </main>
       <footer>
-
+      <Footer></Footer>
       </footer>
     </div>
   );
