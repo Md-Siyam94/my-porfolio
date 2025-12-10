@@ -3,6 +3,7 @@ import Navbar from "@/components/shared/Navbar";
 import About from "@/pages/Home/About";
 
 import Hero from "@/pages/Home/Hero";
+import Skills from "@/pages/Home/Skills";
 import Image from "next/image";
 
 export default function Home() {
@@ -18,6 +19,9 @@ export default function Home() {
        <sectio>
         <About></About>
         </sectio>
+        <section>
+          <Skills></Skills>
+        </section>
       </main>
       <footer>
       <Footer></Footer>
