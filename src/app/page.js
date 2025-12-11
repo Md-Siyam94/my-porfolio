@@ -1,8 +1,9 @@
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 import About from "@/pages/Home/About";
-
+import Contact from "@/pages/Home/Contact";
 import Hero from "@/pages/Home/Hero";
+import Projects from "@/pages/Home/Projects";
 import Skills from "@/pages/Home/Skills";
 import Image from "next/image";
 
@@ -16,12 +17,18 @@ export default function Home() {
        <section>
         <Hero></Hero>
        </section>
-       <sectio>
+       <section>
         <About></About>
-        </sectio>
+        </section>
         <section>
           <Skills></Skills>
         </section>
+        <section>
+          <Projects></Projects>
+          </section>
+          <section>
+            <Contact></Contact>
+          </section>
       </main>
       <footer>
       <Footer></Footer>

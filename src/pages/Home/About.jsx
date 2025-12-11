@@ -9,7 +9,7 @@ import { Pagination, Navigation, FreeMode } from 'swiper/modules';
 
 export default function About() {
   return (
-    <div className='lg:px-52 pt-10 pb-24'>
+    <div className='lg:px-40 px-2 pt-10 pb-24'>
          <Swiper
         slidesPerView={2}
          centeredSlides={true}

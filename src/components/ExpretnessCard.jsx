@@ -6,9 +6,9 @@ export default function ExpretnessCard({skill}) {
     const {stackURL, name} = skill || {}
 
   return (
-    <div>
-        <Image className='h-16 w-16 object-cover'  width={100} 
-            height={100} src={stackURL} alt='stack image'/>
+    <div className='grid justify-center my-4'>
+        <Image className=' rounded-full object-cover'  width={65} 
+            height={65} src={stackURL} alt='stack image'/>
         <h1 className='font-semibold'>{name}</h1>
     </div>
   )
