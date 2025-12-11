@@ -10,7 +10,7 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 
 export default function Projects() {
     return (
-        <div className='lg:flex gap-6 lg:px-40 px-2 py-24 '>
+        <div className='lg:flex gap-6 lg:px-40 px-2 py-24  bg-linear-160 from-gray-900 to-black/80'>
             {/* project-1 */}
             <div className="card  lg:w-96 shadow-sm">
                 <figure>

@@ -10,9 +10,9 @@ export default function Footer() {
             <aside>
                 <h1 className='text-2xl font-semibold'>Md Siyam</h1>
                 <p>
-                    ACME Industries Ltd.
+                    programmersiyam01@gmail.com
                     <br />
-                    Providing reliable tech since 1992
+                  
                 </p>
             </aside>
             <nav>
