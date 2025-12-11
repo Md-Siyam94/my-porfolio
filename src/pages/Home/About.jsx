@@ -27,7 +27,7 @@ export default function About() {
           }
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper h-96 border p-4"
+        className="mySwiper h-96 p-4"
       >
         <SwiperSlide className='shadow-2xl border-2 border-fuchsia-600 shadow-fuchsia-700 p-5'>
             <h1 className='text-xl font-semibold mb-4'>Myself</h1>

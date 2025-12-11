@@ -10,11 +10,11 @@ import { ReactTyped } from 'react-typed'
 
 export default function Hero() {
     return (
-        <div className='grid lg:grid-cols-5 grid-cols-1   items-center  lg:gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 lg:px-40 px-8 h-[calc(100vh-15vh)] '>
+        <div className='grid lg:grid-cols-5 grid-cols-1   items-center  lg:gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 lg:px-40 px-4 lg:h-[calc(100vh-15vh)] '>
             <div className='col-span-3 '>
                 <h2 className='lg:text-3xl text-xl font-semibold my-3'>Hey, I am Siyam</h2>
                 <ReactTyped
-                className='lg:text-6xl md:text-5xl text-3xl font-semibold '
+                    className='lg:text-6xl md:text-5xl text-3xl font-semibold '
                     backSpeed={90}
                     loop={true}
                     onBegin={function noRefCheck() { }}
@@ -36,13 +36,13 @@ export default function Hero() {
                     typeSpeed={90}
                     typedRef={function noRefCheck() { }}
                 />
-                
+
                 <p className='opacity-60 mt-4'>Currently, I am working with Tailwind CSS, JavaScript, React, and other
                     modern web technologies to build dynamic and responsive web applications.</p>
                 <div className='my-6 flex items-center gap-5'>
-                    <Link href={'https://www.linkedin.com/in/md-siyam-d942404'} target="_blank" rel="noopener noreferrer"><Image className='h-12 w-12 cursor-pointer' src={social1} alt='linkedin' /></Link>
-                    <Link href={'https://github.com/Md-Siyam94/'} target="_blank" rel="noopener noreferrer"><Image className='h-16 w-16 cursor-pointer' src={social3} alt='github' /></Link>
-                    <Link href={'https://www.facebook.com/profile.php?id=100049223240013'} target="_blank" rel="noopener noreferrer"><Image className='h-12 w-12 cursor-pointer' src={social2} alt='facebook' /></Link>
+                    <Link href={'https://www.linkedin.com/in/md-siyam-d942404'} target="_blank" rel="noopener noreferrer"><Image className='lg:h-12 h-9 lg:w-12 w-9 cursor-pointer' src={social1} alt='linkedin' /></Link>
+                    <Link href={'https://github.com/Md-Siyam94/'} target="_blank" rel="noopener noreferrer"><Image className='lg:h-16 lg:w-16 h-12 w-12 cursor-pointer' src={social3} alt='github' /></Link>
+                    <Link href={'https://www.facebook.com/profile.php?id=100049223240013'} target="_blank" rel="noopener noreferrer"><Image className='lg:h-12 h-9 lg:w-12 w-9 cursor-pointer' src={social2} alt='facebook' /></Link>
                 </div>
             </div>
             <div className='col-span-2 grid lg:justify-end justify-center '>
