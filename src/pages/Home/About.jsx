@@ -18,6 +18,14 @@ export default function About() {
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+          640:{
+            centeredSlides: false,
+          },
+          768: {
+            centeredSlides: true
+          }
+        }}
         modules={[FreeMode, Pagination]}
         className="mySwiper h-96 border p-4"
       >
