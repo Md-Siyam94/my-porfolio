@@ -14,19 +14,19 @@ export default function Home() {
         <Navbar></Navbar>
       </header>
       <main className=" min-h-[calc(100vh-161px)] w-full max-w-screen-2xl   sm:items-start">
-       <section>
+       <section id="hero">
         <Hero></Hero>
        </section>
-       <section>
+       <section id="about">
         <About></About>
         </section>
-        <section>
+        <section id="skills">
           <Skills></Skills>
         </section>
-        <section>
+        <section id="projects">
           <Projects></Projects>
           </section>
-          <section>
+          <section id="contact">
             <Contact></Contact>
           </section>
       </main>

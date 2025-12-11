@@ -12,12 +12,12 @@ export default function Skills() {
             })
     }, [])
     return (
-        <div className='bg-white/10 lg:px-40 px-2 py-24 grid lg:grid-cols-5 grid-cols-1 items-center '>
-            <div className='col-span-2'>
-                <h1 className='lg:text-7xl md:text-5xl text-3xl font-semibold'>My <span className='text-warning'>Soft</span> Expertness</h1>
+        <div className='bg-white/10 lg:px-40 px-8 py-24 grid lg:grid-cols-5 grid-cols-1 items-center '>
+            <div className='col-span-2 text-center lg:text-start'>
+                <h1 className='lg:text-6xl md:text-5xl text-3xl font-semibold'>My <span className='text-warning'>Soft</span> Expertness</h1>
                 <p className='opacity-80 mt-4'>With a strong foundation in web development, I specialize in the MERN stack (MongoDB, Express.js, React.js, and Node.js)</p>
             </div>
-            <div className='col-span-3  h-[330px] overflow-y-scroll grid lg:grid-cols-4 gap-6 p-5 items-center grid-cols-3 ' >
+            <div className='col-span-3  h-[330px] overflow-y-scroll grid md:grid-cols-4 gap-6 p-5 items-center grid-cols-3 ' >
                 {
                     expertness.map((skill, index)=> <ExpretnessCard key={index} skill={skill}></ExpretnessCard> )
                 }

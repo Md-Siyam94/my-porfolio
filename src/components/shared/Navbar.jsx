@@ -1,14 +1,30 @@
-import link from 'daisyui/components/link'
-import Link from 'next/link'
+'use client'
+
+import { Link } from "react-scroll";
 import React from 'react'
 
 export default function Navbar() {
-    const links= <>
-        <li><Link href={"/"}>Home</Link></li>
-        <li><Link href={"/"}>About</Link></li>
-        <li><Link href={"/"}>Skills</Link></li>
-        <li><Link href={"/"}>Projects</Link></li>
-        <li><Link href={"/"}>Contact</Link></li>
+    const links = <>
+        <li><Link  to="hero"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">Home</Link></li>
+        <li><Link to="about"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">About</Link></li>
+        <li><Link to="skills"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer" >Skills</Link></li>
+        <li><Link to="projects"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">Projects</Link></li>
+        <li><Link to="contact"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">Contact</Link></li>
     </>
     return (
         <div className="navbar fixed top-0 z-50 py-4 lg:px-20 text-lg font-semibold  shadow-sm">
@@ -25,14 +41,15 @@ export default function Navbar() {
                 </div>
                 <a className="btn btn-ghost text-xl">Md Siyam</a>
             </div>
-            
+
             <div className="navbar-end gap-6">
                 <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    {links}
-                </ul>
-            </div>
-                <a className="py-3 px-5 rounded-full bg-success text-sm">Download Resume</a>
+                    <ul className="menu menu-horizontal px-1">
+                        {links}
+                    </ul>
+                </div>
+                <Link href="https://drive.google.com/uc?export=download&id=1wtDtdYA3vbqGOCm_g5Md1cDDBxxHRs4g"
+                    download="Md-Siyam-Resume.pdf" className="py-3 px-5 rounded-full bg-success hover:bg-emerald-500 text-sm">Download Resume</Link>
             </div>
         </div>
     )

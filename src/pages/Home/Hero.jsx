@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import React from 'react'
 import PortfolioImage from '../../../public/WhatsApp_Image_2025-06-29_at_00.45.34_b5bd039c-removebg-preview.png'
-import bgImage from '../../../public/lovepik-colorful-shape-text-background-png-image_401090566_wh1200-removebg-preview.png'
 import social1 from '../../../public/linkedin.png'
 import social2 from '../../../public/facebook.png'
 import social3 from '../../../public/github.png'
@@ -11,7 +10,7 @@ import { ReactTyped } from 'react-typed'
 
 export default function Hero() {
     return (
-        <div className='grid grid-cols-5  items-center  gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 lg:px-40 px-8 h-[calc(100vh-15vh)] mx-auto'>
+        <div className='grid lg:grid-cols-5 grid-cols-1   items-center  gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 lg:px-40 px-8 h-[calc(100vh-15vh)] mx-auto'>
             <div className='col-span-3 '>
                 <h2 className='lg:text-3xl text-xl font-semibold my-3'>Hey, I am Siyam</h2>
                 <ReactTyped
@@ -46,7 +45,7 @@ export default function Hero() {
                     <Link href={'https://www.facebook.com/profile.php?id=100049223240013'} target="_blank" rel="noopener noreferrer"><Image className='h-12 w-12 cursor-pointer' src={social2} alt='facebook' /></Link>
                 </div>
             </div>
-            <div className='col-span-2 grid justify-end '>
+            <div className='col-span-2 grid lg:justify-end justify-center '>
                 <Image className='h-72 w-72 lg:ml-20  pb-5  object-cover bg-[radial-gradient(circle,rgba(192,38,211,0.8)_0%,rgba(192,38,211,0)_70%)] ' src={PortfolioImage} alt='Portfolio image' />
             </div>
         </div>

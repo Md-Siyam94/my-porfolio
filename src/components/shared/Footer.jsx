@@ -12,7 +12,7 @@ export default function Footer() {
                 <p>
                     programmersiyam01@gmail.com
                     <br />
-                  
+                  +880 1789478967
                 </p>
             </aside>
             <nav>
