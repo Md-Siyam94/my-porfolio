@@ -10,7 +10,7 @@ import { ReactTyped } from 'react-typed'
 
 export default function Hero() {
     return (
-        <div className='grid lg:grid-cols-5 grid-cols-1   items-center  lg:gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 lg:px-40 px-4 lg:h-[calc(100vh-15vh)] '>
+        <div className='grid lg:grid-cols-5 grid-cols-1 items-center  lg:gap-10 py-20  bg-linear-20 from-black/80 to-gray-800 lg:px-40 px-4 lg:h-[calc(100vh-15vh)] '>
             <div className='col-span-3 '>
                 <h2 className='lg:text-3xl text-xl font-semibold my-3'>Hey, I am Siyam</h2>
                 <ReactTyped
@@ -45,8 +45,8 @@ export default function Hero() {
                     <Link href={'https://www.facebook.com/profile.php?id=100049223240013'} target="_blank" rel="noopener noreferrer"><Image className='lg:h-12 h-9 lg:w-12 w-9 cursor-pointer' src={social2} alt='facebook' /></Link>
                 </div>
             </div>
-            <div className='col-span-2 grid lg:justify-end justify-center '>
-                <Image className='h-72 w-72 lg:ml-20  pb-5  object-cover bg-[radial-gradient(circle,rgba(192,38,211,0.8)_0%,rgba(192,38,211,0)_70%)] ' src={PortfolioImage} alt='Portfolio image' />
+            <div className='col-span-2 grid lg:justify-end justify-center mt-7 lg:mt-0'>
+                <Image className='lg:h-72 lg:w-72 h-52 w-52 lg:ml-20  pb-5  object-cover bg-[radial-gradient(circle,rgba(192,38,211,0.8)_0%,rgba(192,38,211,0)_70%)] ' src={PortfolioImage} alt='Portfolio image' />
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="  bg-black/98 max-w-screen-2xl font-sans text-white">
+    <div className="  bg-black/98 max-w-screen-2xl mx-auto font-sans text-white">
       <header>
         <Navbar></Navbar>
       </header>

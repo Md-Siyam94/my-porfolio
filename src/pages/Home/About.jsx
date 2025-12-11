@@ -5,11 +5,11 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Pagination, Navigation, FreeMode } from 'swiper/modules';
+import { Pagination,  FreeMode } from 'swiper/modules';
 
 export default function About() {
   return (
-    <div className='lg:px-40 px-4 pt-10 pb-24'>
+    <div className='lg:px-40 px-4 lg:pt-10 pb-24'>
          <Swiper
         slidesPerView={2}
          centeredSlides={true}
@@ -19,7 +19,10 @@ export default function About() {
           clickable: true,
         }}
         breakpoints={{
-          640:{
+          0:{
+            centeredSlides: false,
+          },
+          767:{
             centeredSlides: false,
           },
           768: {
@@ -27,7 +30,7 @@ export default function About() {
           }
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper h-96 p-4"
+        className="mySwiper h-96 overflow-y-scroll p-4"
       >
         <SwiperSlide className='shadow-2xl border-2 border-fuchsia-600 shadow-fuchsia-700 p-5'>
             <h1 className='text-xl font-semibold mb-4'>Myself</h1>

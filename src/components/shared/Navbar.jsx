@@ -1,33 +1,34 @@
 'use client'
 
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import React from 'react'
+import Link from 'next/link';
 
 export default function Navbar() {
     const links = <>
-        <li><Link  to="hero"
+        <li><ScrollLink to="hero"
             smooth={true}
             duration={500}
-            className="cursor-pointer">Home</Link></li>
-        <li><Link to="about"
+            className="cursor-pointer">Home</ScrollLink></li>
+        <li><ScrollLink to="about"
             smooth={true}
             duration={500}
-            className="cursor-pointer">About</Link></li>
-        <li><Link to="skills"
+            className="cursor-pointer">About</ScrollLink></li>
+        <li><ScrollLink to="skills"
             smooth={true}
             duration={500}
-            className="cursor-pointer" >Skills</Link></li>
-        <li><Link to="projects"
+            className="cursor-pointer" >Skills</ScrollLink></li>
+        <li><ScrollLink to="projects"
             smooth={true}
             duration={500}
-            className="cursor-pointer">Projects</Link></li>
-        <li><Link to="contact"
+            className="cursor-pointer">Projects</ScrollLink></li>
+        <li><ScrollLink to="contact"
             smooth={true}
             duration={500}
-            className="cursor-pointer">Contact</Link></li>
+            className="cursor-pointer">Contact</ScrollLink></li>
     </>
     return (
-        <div className="navbar fixed top-0 z-50 py-4 lg:px-20 text-lg font-semibold  shadow-sm">
+        <div className="max-w-screen-2xl mx-auto navbar fixed top-0 z-50 py-4 lg:px-20 text-lg font-semibold  shadow-sm">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
