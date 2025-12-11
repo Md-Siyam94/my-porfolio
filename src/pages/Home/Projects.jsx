@@ -74,7 +74,7 @@ export default function Projects() {
                 </div>
             </div>
             {/* project-3 */}
-            <div className="card mb-10 lg:w-96 shadow-sm">
+            <div className="card lg:w-96 shadow-sm">
                 <figure>
                     <Image
 
