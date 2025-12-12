@@ -1,18 +1,28 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import TwineWere from '../../../public/twinewere.png'
 import Shikhoo from '../../../public/shikhoo.png'
 import ArtifactsTracker from '../../../public/artifactstracker.png'
 import Github from '../../../public/github.png'
 import { Tooltip as ReactTooltip } from "react-tooltip";
+import AOS from 'aos'
+import "aos/dist/aos.css";
 
 export default function Projects() {
+    useEffect(()=>{
+        AOS.init({
+            duration:400,
+            delay:10,
+           
+           
+        })
+    },[])
     return (
         <div className='lg:flex  gap-6 lg:px-40 px-8 py-24  bg-linear-160 from-gray-900 to-black/80'>
             {/* project-1 */}
-            <div className="card mb-10 lg:w-96 shadow-sm">
+            <div data-aos="zoom-in-up" className="card mb-10 lg:mb-0 lg:w-96 shadow-sm">
                 <figure>
                     <Image
 
@@ -43,7 +53,7 @@ export default function Projects() {
                 </div>
             </div>
             {/* project-2 */}
-            <div className="card mb-10 lg:w-96 shadow-sm">
+            <div data-aos="zoom-in-up" className="card mb-10 lg:w-96 shadow-sm">
                 <figure>
                     <Image
 
@@ -74,7 +84,7 @@ export default function Projects() {
                 </div>
             </div>
             {/* project-3 */}
-            <div className="card lg:w-96 shadow-sm">
+            <div data-aos="zoom-in-up" className="card lg:w-96 shadow-sm">
                 <figure>
                     <Image
 

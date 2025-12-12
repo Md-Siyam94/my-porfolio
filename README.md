@@ -1,19 +1,30 @@
 
-## Portfolio
+## Portfolio - Md Siyam
+I built my portfolio using a modern and optimized React/Next.js stack to ensure fast performance, beautiful UI, smooth animations, and seamless user experience. The project is powered by Next.js 16 and React 19, with Tailwind CSS 4 providing a clean and responsive design system.
+
+#### Live Link: (https://portfolio-siyam-azure.vercel.app/)
+
+### 🚀 Frontend Framework & Core Tools
+
+- Next.js 16 – main framework for routing, rendering, SEO, and deployment optimization
+- React 19 – component-based UI with efficient client/server rendering
+- React DOM 19 – for modern rendering features
+
+### 🎨 Styling & UI Libraries
+
+- Tailwind CSS 4 – full styling system for responsive layouts and utility classes
+- DaisyUI – UI components on top of Tailwind for faster development
+- Lucide-react – modern, clean icons
 
 
+### ✨ Animations, Sliders & Visual Enhancements
 
-## Learn More
+- Swiper.js – for interactive and responsive sliders/carousels
+- react-typed – for typing effect in the hero section
+- react-tooltip – for custom tooltips
+- react-icons – additional icon support
 
-To learn more about Next.js, take a look at the following resources:
+### 📜 Scrolling & Navigation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- react-scroll – for smooth section-to-section scrolling
+- Next.js Link – for internal page navigation
